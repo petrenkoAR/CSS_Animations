@@ -1,0 +1,29 @@
+body {
+  padding: 48px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  transition:
+    background-color 1s linear,
+    width 300ms linear,
+    box-shadow 300ms linear;
+}
+.box:hover {
+  background-color: black;
+  width: 800px;
+  box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.5);
+}
+.box2 {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  transition: all 300ms ease-in-out;
+}
+.box2:hover {
+  box-shadow: 0 8px 64px rgba(0,0,0,0.4);
+  border-radius: 16px;
+}
